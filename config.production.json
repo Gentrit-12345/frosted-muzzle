@@ -1,0 +1,29 @@
+{
+  "url": "http://thefrostedmuzzle.com",
+  "server": {
+    "port": 2368,
+    "host": "0.0.0.0"
+  },
+  "database": {
+    "client": "mysql",
+    "connection": {
+      "host": "10.8.176.3",
+      "user": "asaasin",
+      "password": "O)FK-=cq]03L$G7]",
+      "database": "asaasin"
+    }
+  },
+  "mail": {
+    "transport": "Direct"
+  },
+  "logging": {
+    "transports": [
+      "file",
+      "stdout"
+    ]
+  },
+  "process": "local",
+  "paths": {
+    "contentPath": "/home/gentrit/frosted-muzzle/content"
+  }
+}
